@@ -1,0 +1,149 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_tokenid",
+						"type": "uint256"
+					}
+				],
+				"name": "getMessageHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_msgHash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_signature",
+						"type": "bytes"
+					}
+				],
+				"name": "recoverSigner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "hash",
+						"type": "bytes32"
+					}
+				],
+				"name": "toEthSignedMessageHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_msgHash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_signature",
+						"type": "bytes"
+					},
+					{
+						"internalType": "address",
+						"name": "_signer",
+						"type": "address"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"toEthSignedMessageHash(bytes32)": {
+					"details": "返回 以太坊签名消息 `hash`：消息 遵从以太坊签名标准：https://eth.wiki/json-rpc/API#eth_sign[`eth_sign`] 以及`EIP191`:https://eips.ethereum.org/EIPS/eip-191` 添加\"\\x19Ethereum Signed Message:\\n32\"字段，防止签名的是可执行交易。"
+				},
+				"verify(bytes32,bytes,address)": {
+					"details": "通过ECDSA，验证签名地址是否正确，如果正确则返回true _msgHash为消息的hash _signature为签名 _signer为签名地址"
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/weekly-tasks/level2/t1/SignatureVerify.sol": "SigatureVerify"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/weekly-tasks/level2/t1/SignatureVerify.sol": {
+			"keccak256": "0x5210acb711b390a5b85782d05f1fa7207c8f3034f847b87e647c1541bda2c1fa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a4386a41ce516cb86f8219757d201bc102ebe8f8cfd3147ade91b73315ce75e",
+				"dweb:/ipfs/QmWDReCJFZDmj6zGjmk8RZQFCHSvaiTN6NRqPsh11eiSPo"
+			]
+		}
+	},
+	"version": 1
+}

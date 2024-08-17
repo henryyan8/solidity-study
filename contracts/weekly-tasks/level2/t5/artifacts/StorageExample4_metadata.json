@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "b",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/weekly-tasks/level2/t5/StorageExample4.sol": "StorageExample4"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/weekly-tasks/level2/t5/StorageExample4.sol": {
+			"keccak256": "0xcc45410ddc8dbcd7cb3172dde23b49afae4949d6328a670903c9ee6ee1bffe09",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3ccf607584e44a95e85e1e965d6010d3c8fe02f24cc5db2a170521533dd5b83b",
+				"dweb:/ipfs/QmYkoEhpLvCq2Fe7WBdwsPMUVGhUd1dcyTGFJiR9Jd9yG2"
+			]
+		}
+	},
+	"version": 1
+}

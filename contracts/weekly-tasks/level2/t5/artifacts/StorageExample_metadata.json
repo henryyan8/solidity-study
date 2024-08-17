@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/weekly-tasks/level2/t5/StorageExample1.sol": "StorageExample"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/weekly-tasks/level2/t5/StorageExample1.sol": {
+			"keccak256": "0xd3002b63b0fec3506f291d0591b06878380e4850a9fcac8a81c5e455f607bd66",
+			"urls": [
+				"bzzr://63f2dca97cabb454055aade10534c96313caabbdecd3d968c72507fd993f9395"
+			]
+		}
+	},
+	"version": 1
+}

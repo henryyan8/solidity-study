@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/weekly-tasks/level2/t5/StorageExample3.sol": "StorageExample3"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/weekly-tasks/level2/t5/StorageExample3.sol": {
+			"keccak256": "0x20d6d75a77c95b2e9766db3e122f59a4bfb169394b92ab3522c3f89c9394cb19",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d72f25297f7d3689dc9a5f247e9d83a3ae453edc40b4c546defb4e7964247a72",
+				"dweb:/ipfs/Qmf6KY1H4CJmXHAyosvbUimDJWBitu8FmXRHS21XgV6pGv"
+			]
+		}
+	},
+	"version": 1
+}

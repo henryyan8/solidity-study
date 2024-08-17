@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/weekly-tasks/level2/t5/StorageExample1.sol": "StorageExample1"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/weekly-tasks/level2/t5/StorageExample1.sol": {
+			"keccak256": "0xb33a149b5607438c475156b8b83b930bb226a48594a1927da28e7f4d1ca24848",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c99c09bbe4356d6820ad6b116ab64b51c22728863e06c54107b0755b75b272c0",
+				"dweb:/ipfs/QmWLPa8dwzBUJovPimXRN1qmWfKoaBrNGQWnjWFpg5Ff44"
+			]
+		}
+	},
+	"version": 1
+}
